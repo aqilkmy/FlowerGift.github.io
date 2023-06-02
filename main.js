@@ -16,21 +16,33 @@ const b4 = document.querySelector(".b4")
 const b5 = document.querySelector(".b5")
 const b6 = document.querySelector(".b6")
 
+const c1 = document.querySelector(".c1")
+const c2 = document.querySelector(".c2")
+const c3 = document.querySelector(".c3")
+const c4 = document.querySelector(".c4")
+const c5 = document.querySelector(".c5")
+const c6 = document.querySelector(".c6")
+
+
 const fw1 = document.querySelector(".fw1")
 const fw2 = document.querySelector(".fw2")
+const fw3 = document.querySelector(".fw3")
 
 const flower1 = document.querySelector(".flower1")
 const flower2 = document.querySelector(".flower2")
+const flower3 = document.querySelector(".flower3")
 
 spin1.addEventListener("click", () => {
     fw1.classList.toggle("fw1Move")
     fw2.classList.toggle("fw2Move")
+    fw3.classList.toggle("fw3Move")
 
 })
 
 tombol.addEventListener("click", () => {
     fw1.classList.toggle("fw1Move")
     fw2.classList.toggle("fw2Move")
+    fw3.classList.toggle("fw3Move")
 
     a1.classList.toggle("n1")
     a2.classList.toggle("n2")
@@ -57,4 +69,18 @@ tombol.addEventListener("click", () => {
     b4.classList.toggle("flower2on")
     b5.classList.toggle("flower2on")
     b6.classList.toggle("flower2on")
+    
+    c1.classList.toggle("o1")
+    c2.classList.toggle("o2")
+    c3.classList.toggle("o3")
+    c4.classList.toggle("o4")
+    c5.classList.toggle("o5")
+    c6.classList.toggle("o6")
+    c1.classList.toggle("flower3on")
+    c2.classList.toggle("flower3on")
+    c3.classList.toggle("flower3on")
+    c4.classList.toggle("flower3on")
+    c5.classList.toggle("flower3on")
+    c6.classList.toggle("flower3on")
+
 })
