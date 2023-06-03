@@ -39,7 +39,7 @@ body {
     position: relative;
     justify-content: center;
     /* align-items: center; */
-    transform: translateX(180px) translateY(-200px);
+    transform: translateX(180px) translateY(-200px) scale(2);
 
 }
 
@@ -87,6 +87,11 @@ body {
 }
 
 /* FLOWER 1 START */
+
+.flower1 {
+    height: 10px;
+    width: 10px;
+}
 
 .flower1on {
     position: absolute;
@@ -159,12 +164,12 @@ body {
 
 
 .flower2 {
-    height: 100px;
-    width: 100px;
+    height: 10px;
+    width: 10px;
 }
 
 .flower2on {
-    border-radius: 5px 70%;
+    border-radius: 30px 70%;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(0, 62, 103);
@@ -228,8 +233,8 @@ body {
 /* FLOWER 2 DONE */
 /* FLOWER 3 START */
 .flower3 {
-    height: 100px;
-    width: 100px;
+    height: 10px;
+    width: 10px;
 }
 
 .flower3on {
@@ -296,18 +301,20 @@ body {
 /* FLOWER 3 DONE */
 /* FLOWER 4 START */
 .flower4 {
-    height: 100px;
-    width: 100px;
+    height: 10px;
+    width: 10px;
 }
 
 .flower4on {
-    border-radius: 10px 50%;
+    border-radius: 15px 60%;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(7, 2, 82);
     background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(230,251,255,1) 17%, rgba(193,249,255,1) 56%, rgba(135,230,255,1) 84%, rgba(135,238,255,1) 89%, rgba(67,207,255,1) 100%);
     position: absolute;
     transform-origin: left top;
+    height: 90px;
+    width: 90px;
     top: 50%;
 }
 
@@ -362,12 +369,12 @@ body {
 /* FLOWER 4 DONE */
 /* FLOWER 5 START */
 .flower5 {
-    height: 100px;
-    width: 100px;
+    height: 10px;
+    width: 10px;
 }
 
 .flower5on {
-    border-radius: 10px 50%;
+    border-radius: 8px 60%;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(103, 10, 0);
