@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
-    overflow: hidden;
+    overflow: auto;
 
 }
 
@@ -56,6 +56,12 @@ body {
 .fw3 {
     animation: rotateInverse 5s ease-in-out;
 }
+.fw4 {
+    animation: rotate 7s ease-in-out;
+}
+.fw5 {
+    animation: rotateInverse 2.5s ease-in-out;
+}
 
 
 
@@ -73,6 +79,12 @@ body {
     animation: rotate 5s ease-in-out;
 }
 
+.fw4Move {
+    animation: rotateInverse 7s ease-in-out;
+}
+.fw5Move {
+    animation: rotate 2.5s ease-in-out;
+}
 
 /* FLOWER 1 START */
 
@@ -88,7 +100,7 @@ body {
     margin: auto;
     transform-origin: left top;
     top: 50%;
-    left: 50%;
+    
 
 
 }
@@ -162,7 +174,7 @@ body {
     position: absolute;
     transform-origin: left top;
     top: 50%;
-    left: 50%;
+
 }
 
 .m1 {
@@ -215,7 +227,6 @@ body {
 
 /* FLOWER 2 DONE */
 /* FLOWER 3 START */
-
 .flower3 {
     height: 100px;
     width: 100px;
@@ -233,7 +244,6 @@ body {
     position: absolute;
     transform-origin: left top;
     top: 50%;
-    left: 50%;
 }
 
 .o1 {
@@ -281,10 +291,140 @@ body {
     transform: rotate(390deg);
     animation: glow2 2s ease-in-out infinite;
     transition-delay: 1s;
+}
+
+/* FLOWER 3 DONE */
+/* FLOWER 4 START */
+.flower4 {
+    height: 100px;
+    width: 100px;
+}
+
+.flower4on {
+    border-radius: 10px 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(7, 2, 82);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(230,251,255,1) 17%, rgba(193,249,255,1) 56%, rgba(135,230,255,1) 84%, rgba(135,238,255,1) 89%, rgba(67,207,255,1) 100%);
+    position: absolute;
+    transform-origin: left top;
+    top: 50%;
+}
+
+.p1 {
+    transform: rotate(60deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.p2 {
+    transition: 1s ease-in-out;
+    transform: rotate(120deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.p3 {
+    transition: 1s ease-in-out;
+    transform: rotate(180deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.p4 {
+    transition: 1s ease-in-out;
+    transform: rotate(240deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
 
 }
 
 
+.p5 {
+    transition: 1s ease-in-out;
+    transform: rotate(300deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.p6 {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
+
+/* FLOWER 4 DONE */
+/* FLOWER 5 START */
+.flower5 {
+    height: 100px;
+    width: 100px;
+}
+
+.flower5on {
+    border-radius: 10px 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(103, 10, 0);
+    background: linear-gradient(73deg, rgba(255,198,84,1) 0%, rgba(255,155,53,1) 66%, rgba(255,121,31,1) 89%, rgba(252,79,0,1) 100%);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform-origin: left top;
+    top: 50%;
+}
+
+.q1 {
+    transform: rotate(60deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.q2 {
+    transition: 1s ease-in-out;
+    transform: rotate(120deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.q3 {
+    transition: 1s ease-in-out;
+    transform: rotate(180deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.q4 {
+    transition: 1s ease-in-out;
+    transform: rotate(240deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+
+}
+
+.q5 {
+    transition: 1s ease-in-out;
+    transform: rotate(300deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.q6 {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
 
 
 
